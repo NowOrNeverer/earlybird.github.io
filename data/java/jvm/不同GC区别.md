@@ -1,6 +1,7 @@
 来源：http://www.importnew.com/15820.html
 
-它的这个图我很喜欢： 
+它的这个图我很喜欢:
+
 ![gc](http://jbcdn2.b0.upaiyun.com/2015/03/fd0c0db33776f042f62e5386131e487c.jpg)
 ## Minor GC
 从年轻代空间（包括 Eden 和 Survivor 区域）回收内存被称为 Minor GC。
