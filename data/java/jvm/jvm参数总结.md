@@ -1,7 +1,5 @@
 ## JVM内存相关参数设置总结
 
-------
-
 参考：http://my.oschina.net/shajin/blog/260688
 
 ##堆大小设置
@@ -111,6 +109,8 @@ the space 69632K,   4% used [0x227d0000, 0x22aeb958, 0x22aeba00, 0x26bd0000)
 ### 并发收集器设置
 -XX:+CMSIncrementalMode:设置为增量模式。适用于单CPU情况。 
 -XX:ParallelGCThreads=n:设置并发收集器年轻代收集方式为并行收集时，使用的CPU数。并行收集线程数。
+
+------
 
 ## 调优总结
 ### 年轻代大小选择
