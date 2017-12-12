@@ -55,7 +55,7 @@ JVM提供了大量命令行参数，打印信息，供调试使用。主要有�
 ### -XX:PrintHeapAtGC 
 打印GC前后的详细堆栈信息 
 输出形式：
-```
+```java
 34.702: [GC {Heap before gc invocations=7:
  def new generation   total 55296K, used 52568K [0x1ebd0000, 0x227d0000, 0x227d0000)
 eden space 49152K,  99% used [0x1ebd0000, 0x21bce430, 0x21bd0000)
